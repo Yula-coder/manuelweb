@@ -1,4 +1,5 @@
 /*Estilos generales y reseteos*/
+
 * {
     margin: 0;
     padding: 0;
@@ -8,13 +9,11 @@
     font-family: "Montserrat", sans-serif;
 }
 
-
-/* Estilos Header */
+/*Header*/
 .header {
     background-size: cover;
     height: 100vh;
     padding: 5vh;
-    background-image: url(./img/backgroundviolet.jpg);
     margin: 0;
     padding: 0;
 }
@@ -33,20 +32,7 @@ ul {
     gap: 5rem;
 }
 
-.headerintro {
-align-items: flex-start;
-margin: 15vh 10vh;
-font-size: 5vh;
-}
-
-.subtitulo,
-h1,
-a {
-    color: #f0f8ff;
-    margin: 2vh;
-}
-
-/* falta la altura */
+/* falta la altura del logotipo (creo) */
 .logotipo {
     width: 6rem;
 }
@@ -56,29 +42,47 @@ nav ul li a {
 
 }
 
+/*Main inicio*/
 
+.main-inicio {
+    background-image: url(./img/backgroundviolet.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding: 5vh;
+    margin: 0;
+    padding: 0;
+}
 
+.portada {
+    justify-content: space-between;
+    padding: 5rem;
+
+}
+.subtitulo,
+h1,
+a {
+    color: #f0f8ff;
+    margin: 2vh;
+}
 
 /*Estilos Button*/
-button {
+.button-inicio {
     width: 10rem;
     height: 2rem;
     border-radius: 3rem;
     background-color: #ede0f7;
     align-content: end;
-}
+} 
 
-
-/*Estilos Main*/
+/*Main*/
 main {
-    background-color: #171118;
+    background-color: #250E2A;
     color: #ede0f7
 }
 
-.sectionmain {
-    backdrop-filter: blur(3px);
-}
 
+
+/*Pag-Trabajos*/
 .card-trabajos {
     width: 30rem;
     background-color: #f3d8afe1;
@@ -94,12 +98,23 @@ main {
 
 }
 
-/*Estilos Footer*/
-footer {
-    color: #f0f8ff;
-    background-size: cover;
-    background-color: #171118;
-    height: 15vh;
-    text-align: end;
-    padding: 5vh;
+ /*Botón trabajo*/
+.boton-trabajo {
+    width: 10rem;
+    height: 2rem;
+    border-radius: 3rem;
+    background-color: #ede0f7;
+    align-content: end;
 }
+
+
+/*Footer*/
+footer {
+    background-color:#171118;
+    color: #fff;
+    text-align: end;
+    padding:2rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+     height: 15vh;}
