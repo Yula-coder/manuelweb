@@ -1,0 +1,105 @@
+/*Estilos generales y reseteos*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* Estilos Header */
+.header {
+    background-size: cover;
+    height: 100vh;
+    padding: 5vh;
+    background-image: url(./img/backgroundviolet.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #171118;
+    padding: 1rem;
+    background-size: cover;
+}
+
+ul {
+    display: flex;
+    gap: 5rem;
+}
+
+.headerintro {
+align-items: flex-start;
+margin: 15vh 10vh;
+font-size: 5vh;
+}
+
+.subtitulo,
+h1,
+a {
+    color: #f0f8ff;
+    margin: 2vh;
+}
+
+/* falta la altura */
+.logotipo {
+    width: 6rem;
+}
+
+nav ul li a {
+    color: #f0f8ff;
+
+}
+
+
+
+
+/*Estilos Button*/
+button {
+    width: 10rem;
+    height: 2rem;
+    border-radius: 3rem;
+    background-color: #ede0f7;
+    align-content: end;
+}
+
+
+/*Estilos Main*/
+main {
+    background-color: #171118;
+    color: #ede0f7
+}
+
+.sectionmain {
+    backdrop-filter: blur(3px);
+}
+
+.card-trabajos {
+    width: 30rem;
+    background-color: #f3d8afe1;
+    border-radius: 5%;
+    padding: 2vh;
+    margin: 5vh;
+    color: #171118;
+}
+
+.card-trabajos img {
+    width: 100%;
+    padding: 1vh;
+
+}
+
+/*Estilos Footer*/
+footer {
+    color: #f0f8ff;
+    background-size: cover;
+    background-color: #171118;
+    height: 15vh;
+    text-align: end;
+    padding: 5vh;
+}
