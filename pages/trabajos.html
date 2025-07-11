@@ -12,6 +12,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <!--bs-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -30,53 +34,49 @@
     </header>
 
     <main class="main">
-        <section class="sectionmain">
-            <h2>Mis trabajos</h2>
-            <section class="card-trabajos">
-                <img src="../img/trabajos (1).png" alt="aca trabajo">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur eos natus molestiae quibusdam est
-                    aspernatur ab at nam dolores porro nostrum beatae, ipsa, voluptatibus voluptatum repudiandae, sint
-                    ipsum
-                    magnam libero.</p>
-                <p>40.000</p>
-                <button class="boton-trabajo">Encargar trabajo</button>
-            </section>
-            <section class="card-trabajos">
-                <img src="../img/trabajos (2).png" alt="aca trabajo principal">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur eos natus molestiae quibusdam est
-                    aspernatur ab at nam dolores porro nostrum beatae, ipsa, voluptatibus voluptatum repudiandae, sint
-                    ipsum
-                    magnam libero.</p>
-                <p>140.000</p>
-                <button class="boton-trabajo">Encargar trabajo</button>
-            </section>
-            <section class="card-trabajos">
-                <img src="../img/trabajos (3).png" alt="powerapps">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur eos natus molestiae quibusdam est
-                    aspernatur ab at nam dolores porro nostrum beatae, ipsa, voluptatibus voluptatum repudiandae, sint
-                    ipsum
-                    magnam libero.</p>
-                <p>55.000</p>
-                <button class="boton-trabajo">Encargar trabajo</button>
-            </section>
-            <section class="card-trabajos">
-                <img src="../img/trabajos (4).png" alt="spotifiapp">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur eos natus molestiae quibusdam est
-                    aspernatur ab at nam dolores porro nostrum beatae, ipsa, voluptatibus voluptatum repudiandae, sint
-                    ipsum
-                    magnam libero.</p>
-                <p>88.000</p>
-                <button class="boton-trabajo">Encargar trabajo</button>
-            </section>
-            <section class="card-trabajos">
-                <img src="../img/trabajos (5).png" alt="clickarequito">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur eos natus molestiae quibusdam est
-                    aspernatur ab at nam dolores porro nostrum beatae, ipsa, voluptatibus voluptatum repudiandae, sint
-                    ipsum
-                    magnam libero.</p>
-                <p>220.000</p>
-                <button class="boton-trabajo">Encargar trabajo</button>
-            </section>
+
+        <h2>Mis trabajos</h2>
+        <section class="sectionmaintrabajo">
+            <div class="card" style="width: 18rem;">
+                <img src="../img/trabajos (1).png" class="card-img-top" alt="trabajo para ACA">
+                <div class="card-body">
+                    <h5 class="card-title">ACA Desarrollo web</h5>
+                    <p class="card-text">Desarrollo hecho para el soporte técnico en ACA Rosario</p>
+                    <a href="./contacto.html" class="btn btn-primary">Saber más</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../img/trabajos (2).png" class="card-img-top" alt="Automatización de sistemas">
+                <div class="card-body">
+                    <h5 class="card-title">Automatización en sistemas</h5>
+                    <p class="card-text">Implementado principalmente en la parte contable de la empresa</p>
+                    <a href="./contacto.html" class="btn btn-primary">Saber más</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../img/trabajos (3).png" class="card-img-top" alt="uso de powerapps">
+                <div class="card-body">
+                    <h5 class="card-title">Trabajos en PowerApps</h5>
+                    <p class="card-text">Desarrollo de aplicaciones con la herramienta "PowerApps"</p>
+                    <a href="./contacto.html" class="btn btn-primary">Saber más</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../img/trabajos (4).png" class="card-img-top" alt="Build app">
+                <div class="card-body">
+                    <h5 class="card-title">Programación</h5>
+                    <p class="card-text">Trabajos realizados en equipo</p>
+                    <a href="./contacto.html" class="btn btn-primary">Saber más</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../img/trabajos (5).png" class="card-img-top" alt="pagina web para click arequito">
+                <div class="card-body">
+                    <h5 class="card-title">Desarrollo web</h5>
+                    <p class="card-text">Desarrollo hecho para negocio comercial de computación en Rosario</p>
+                    <a href="./contacto.html" class="btn btn-primary">Saber más</a>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
@@ -84,6 +84,11 @@
         <p>De Argentina</p>
         <p>Página hecha por Julieta</p>
     </footer>
+    <!--bs-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
