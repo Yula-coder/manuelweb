@@ -55,7 +55,7 @@ ul,
   padding: 10vh;
   background-image: url(../img/backgroundimg.jpg);
   background-size: cover;
-  height:95vh;
+  height: 95vh;
 }
 
 .main-contacto {
@@ -73,10 +73,10 @@ ul,
   border-radius: 20px;
 }
 
-.main-sobremi{
-   background-color: #2f2331;
-   height: 90vh;
-   
+.main-sobremi {
+  background-color: #2f2331;
+  height: 90vh;
+
 }
 
 .maintrabajo {
@@ -92,6 +92,7 @@ ul,
   height: 40rem;
   object-fit: cover;
 }
+
 /*Estilos en pag de experiencia*/
 .experiencia {
   display: flex;
@@ -102,21 +103,29 @@ ul,
   padding: 20px;
 }
 
-.experiencias{
-   padding-top: 100px;
-  margin: 5vh 0 2vh 10;}
+.experiencias {
+  padding-top: 100px;
+  margin: 5vh 0 2vh 10;
+}
 
-   .item {
+.item {
   display: flex;
   flex-direction: row;
   gap: 2rem;
   align-items: flex-start;
 }
 
+.oscurecerexperiencia {
+  background-color: rgba(0, 0, 0, 0.5);
+ height: 95vh;
+  justify-content: center;
+}
+
 .anio {
-  flex: 0 0 150px; /* ancho fijo para los años */
+  flex: 0 0 150px;
+  /* ancho fijo para los años */
   font-weight: bold;
-  color: #64ffda; /* color estilo Brittany */
+  color: #64ffda;
   text-align: right;
 }
 
@@ -127,12 +136,12 @@ ul,
 .detalle h3 {
   margin: 0;
   font-size: 1.1rem;
-  color: #ccd6f6;
+  color: #ff9d5b;
 }
 
 .detalle p {
   margin-top: 5px;
-  color: #8892b0;
+  color: #e2e5ee;
   font-size: 0.95rem;
   line-height: 1.5;
 }
@@ -147,7 +156,7 @@ ul,
   object-fit: cover;
 }
 
-footer { 
+footer {
   background-color: #171118;
 }
 
