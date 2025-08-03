@@ -1,3 +1,7 @@
+@charset "UTF-8";
+/* Estilos Header */
+/*Estilos del Main*/
+/* Estilos Footer */
 ul,
 .index-header-flex {
   display: flex;
@@ -7,7 +11,6 @@ ul,
 
 .inicioportada {
   padding: 33vh 0 0 5vh;
-
 }
 
 .index-header {
@@ -26,9 +29,7 @@ ul,
 
 .index-header {
   background-image: url(../img/backgroundviolet.jpg);
-
 }
-
 
 .contenedor-inferior-header {
   gap: 1rem;
@@ -37,7 +38,6 @@ ul,
 
 .index-header-flex {
   justify-content: space-between;
-
 }
 
 .div-delindex {
@@ -66,7 +66,6 @@ ul,
   padding: 20vh 0 0 15vh;
 }
 
-
 .iframe {
   width: 20rem;
   height: 20rem;
@@ -76,7 +75,6 @@ ul,
 .main-sobremi {
   background-color: #2f2331;
   height: 120vh;
-
 }
 
 .maintrabajo {
@@ -93,11 +91,10 @@ ul,
   object-fit: cover;
 }
 
-.div1{
-display: flex;
-justify-items: center;}
-
-
+.div1 {
+  display: flex;
+  justify-items: center;
+}
 
 /*Estilos en pag de experiencia*/
 .experiencia {
@@ -123,7 +120,7 @@ justify-items: center;}
 
 .oscurecerexperiencia {
   background-color: rgba(0, 0, 0, 0.5);
- height: 95vh;
+  height: 95vh;
   justify-content: center;
 }
 
@@ -154,29 +151,30 @@ justify-items: center;}
 
 /*sobre mi grid*/
 .parent {
-display: grid;
-grid-template-columns: repeat(4, 1fr);
-grid-template-rows: repeat(5, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
-padding: 5rem;
-align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  padding: 5rem;
+  align-items: center;
 }
 
-.div1 { grid-area: 1 / 1 / 6 / 3; }
-.div2 { grid-area: 1 / 3 / 6 / 5; }
+.div1 {
+  grid-area: 1/1/6/3;
+}
 
+.div2 {
+  grid-area: 1/3/6/5;
+}
 
 .oscurecemio {
   background-color: rgba(0, 0, 0, 0.5);
- height:120vh;
+  height: 120vh;
   justify-content: center;
 }
 
-
 /* Estilos Footer */
-
-
 .logocontacto {
   width: 3rem;
   height: 3rem;
@@ -215,46 +213,36 @@ footer {
 }
 
 @media only screen and (min-width: 900px) {
-
   ul,
   .index-header-flex {
     flex-direction: row;
   }
-
   .footer-container-primerHijo {
     grid-area: 1/1/3/3;
   }
-
   .footer-container-segundoHijo {
     grid-area: 1/3/3/4;
   }
-
   .footer-container-tercerHijo {
     grid-area: 3/1/4/4;
   }
-
   .btn-header {
     width: 100%;
   }
-
   .contenedor-inferior-header {
     height: 75vh;
   }
-
   .iframeMapa {
     width: 50%;
   }
-
   .sucursales-main-container {
     flex-direction: row;
     justify-content: center;
   }
-
   .contenedor-inferior-header-sucursales {
     max-width: 50%;
   }
 }
-
 * {
   font-family: "Montserrat", sans-serif !important;
   margin: 0;
@@ -270,5 +258,6 @@ ul {
 
 .oscurecer-fondo {
   background-color: rgba(0, 0, 0, 0.267);
-
 }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,286 @@
+@import "../sass/utilities/variables";
+@import "../sass/utilities/extends";
+@import "../sass/utilities/mixins";
+
+@import "../sass/layout/header";
+@import "../sass/layout/main";
+@import "../sass/layout/footer";
+
+@import "../sass/mq/mq";
+
+
+
+ul,
+.index-header-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inicioportada {
+  padding: 33vh 0 0 5vh;
+
+}
+
+.index-header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 95vh;
+  position: relative;
+}
+
+/* Estilos Header */
+.logotipo {
+  width: 5rem;
+  height: 5rem;
+}
+
+.index-header {
+  background-image: url(../img/backgroundviolet.jpg);
+
+}
+
+
+.contenedor-inferior-header {
+  gap: 1rem;
+  max-width: 30rem;
+}
+
+.index-header-flex {
+  justify-content: space-between;
+
+}
+
+.div-delindex {
+  position: absolute;
+  padding: 5rem;
+  color: #fff;
+}
+
+.headerg {
+  margin: 2rem 0;
+}
+
+.maingeneral {
+  height: 20vh;
+  padding: 10vh;
+  background-image: url(../img/backgroundimg.jpg);
+  background-size: cover;
+  height: 95vh;
+}
+
+.main-contacto {
+  background-image: url(../img/backgroundviolet.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 95vh;
+  padding: 20vh 0 0 15vh;
+}
+
+
+.iframe {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 20px;
+}
+
+.main-sobremi {
+  background-color: #2f2331;
+  height: 120vh;
+
+}
+
+.maintrabajo {
+  background-image: url(../img/backgroundimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+  padding: 20vh 0 0 15vh;
+}
+
+.carousel-foto {
+  width: 20%;
+  height: 30%;
+  object-fit: cover;
+}
+
+.div1{
+display: flex;
+justify-items: center;}
+
+
+
+/*Estilos en pag de experiencia*/
+.experiencia {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 40px auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.experiencias {
+  padding-top: 100px;
+  margin: 5vh 0 2vh 10;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.oscurecerexperiencia {
+  background-color: rgba(0, 0, 0, 0.5);
+ height: 95vh;
+  justify-content: center;
+}
+
+.anio {
+  flex: 0 0 150px;
+  /* ancho fijo para los años */
+  font-weight: bold;
+  color: #64ffda;
+  text-align: right;
+}
+
+.detalle {
+  flex: 1;
+}
+
+.detalle h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #ff9d5b;
+}
+
+.detalle p {
+  margin-top: 5px;
+  color: #e2e5ee;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/*sobre mi grid*/
+.parent {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+padding: 5rem;
+align-items: center;
+}
+
+.div1 { grid-area: 1 / 1 / 6 / 3; }
+.div2 { grid-area: 1 / 3 / 6 / 5; }
+
+
+.oscurecemio {
+  background-color: rgba(0, 0, 0, 0.5);
+ height:120vh;
+  justify-content: center;
+}
+
+
+/* Estilos Footer */
+
+
+.logocontacto {
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #171118;
+}
+
+.footer-container-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0.2rem;
+  grid-row-gap: 0.2rem;
+  margin: 1rem auto;
+}
+
+.footer-container-primerHijo {
+  grid-area: 1/1/2/4;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.199);
+}
+
+.footer-container-segundoHijo {
+  grid-area: 2/1/3/4;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.199);
+}
+
+.footer-container-tercerHijo {
+  grid-area: 3/1/4/4;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.199);
+}
+
+@media only screen and (min-width: 900px) {
+
+  ul,
+  .index-header-flex {
+    flex-direction: row;
+  }
+
+  .footer-container-primerHijo {
+    grid-area: 1/1/3/3;
+  }
+
+  .footer-container-segundoHijo {
+    grid-area: 1/3/3/4;
+  }
+
+  .footer-container-tercerHijo {
+    grid-area: 3/1/4/4;
+  }
+
+  .btn-header {
+    width: 100%;
+  }
+
+  .contenedor-inferior-header {
+    height: 75vh;
+  }
+
+  .iframeMapa {
+    width: 50%;
+  }
+
+  .sucursales-main-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .contenedor-inferior-header-sucursales {
+    max-width: 50%;
+  }
+}
+
+* {
+  font-family: "Montserrat", sans-serif !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  gap: 2rem;
+  color: #000;
+}
+
+.oscurecer-fondo {
+  background-color: rgba(0, 0, 0, 0.267);
+
+}
